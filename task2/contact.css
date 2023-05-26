@@ -1,0 +1,152 @@
+.a{
+    background-color: rgb(83, 59, 59);
+    width: 100%;
+    height: 1000px;
+}
+h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+img{
+    width: 300px;
+    padding-top: 17%;
+    /* border-radius: 10px 10px 10px 10px; */
+    padding-left: 5px;
+
+}
+.b{
+    background-color: black;
+    height: 50px;
+}
+ul{
+    
+    padding-left: 300px;
+}
+.b ul a {
+   color: orange; 
+   font-size: 30px;
+  text-decoration: none;
+  
+   
+}
+li{
+    padding-right: 75px;
+    display: inline;
+}
+ul a:hover{
+    color: azure;
+    
+}
+
+
+
+
+
+
+
+
+/*CSS Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/*Designing of Contact Us*/
+#ContactUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(83, 59, 59);
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+}
+
+/*Changing the color of placeholder*/
+::placeholder {
+    color: gray;
+}
+
+/*Making the webpage responsive using media queries*/
+@media only screen and (max-width:1131px) {
+    #row4 {
+        width: 42vw;
+    }
+
+    #row5 {
+        width: 45vw;
+    }
+
+    #row6 {
+        margin-top: 20px;
+        width: 90vw;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:781px) {
+    #row4 {
+        width: 84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+
+    #row5 {
+
+        width: 84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    #row6 {
+        width: 84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #row4 {
+        width: 78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+
+    #row5 {
+
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+
+    #row6 {
+        width: 78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+
+@media only screen and (min-height:1000px) {
+    #navbar {
+        height: 10vh;
+    }
+
+    #container1::before {
+        height: 39vh;
+    }
+
+    #container1 {
+        height: 44vh
+    }
+}
